@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It initializes all of the git files for the repository. So git will now know that this is a repository.
+
