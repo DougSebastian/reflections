@@ -5,3 +5,13 @@ It initializes all of the git files for the repository. So git will now know tha
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to keep track of files which you plan on adding. And it allows you to do it without creating any history.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add just the files containing one change to the staging area. Then you can use
+git diff --staged to double check that you are only getting what you want included in your check-in.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow for keeping orderly track of multiple versions of your development files. And it makes it easier to protect your main   develolpment breanch.
+
