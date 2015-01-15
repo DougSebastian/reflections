@@ -15,3 +15,16 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches allow for keeping orderly track of multiple versions of your development files. And it makes it easier to protect your main   develolpment breanch.
 
+How do the diagrams help you visualize the branch structure?
+
+They show you the existing branches and any unreachable commits. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+After merging two branches together the target branch will contain a merged version of the changes present in both branches. And git log will show the changes from both  branches spaced out based on timestamps.
+
+What are the pros and cons of GitÎéÎ÷s automatic merging vs. always doing merges manually?
+
+A manual merge may be better if there are major conflicts in the organization of two branches code.Basically if the merge is going to be easier to do manually or if manually merging will result in better code then do it manually.
+Most of the time it will be much easier and more efficient to merge automatically if there is fairly good seperation and good code in both branches.
+
