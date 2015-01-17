@@ -21,7 +21,7 @@ This allows you to view the changes and the associated history.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-		    Fill in your answer here
+You could email your changes to your collaborator. The comunication would be more difficult and the history or the process would be much harder to track.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
